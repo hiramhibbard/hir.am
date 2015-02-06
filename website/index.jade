@@ -1,19 +1,47 @@
-section(id="slide-1", class="homeSlide")
-  .bcg(data-0="background-position: 50% 0px;", data-500="background-position: 50% -700px;")
-    .container
+.page-home
+  .container
+      h1 Hiram Hibbard
+      h3 Full Stack Web Developer
+
+    .home-content
+      p.text-center
+        | I'm a Web Developer based in San Luis Obispo, California.<br>
+        | I work at an <strong>amazing company</strong> with <strong>amazing people</strong>, <a href="://wearehathway.com" target="_blank">HATHWAY</a>.
+
+      p.text-center
+        | I've been building things for the web for about a decade.<br>
+        | I make <strong>websites</strong> and <strong>apps</strong> by day, and <var>dream of code</var> at night.
+
+    .contact-form
+      h2.text-center
+        | Say Hi!
       .row
-        .col-md-8
-          h1 Professional portfolio of Hiram Hibbard.
-          h3 Stay tuned!
-        .col-md-4
-          img.rubydog.img-responsive(src="images/roo.png", alt="", data-0="margin-top: 0px; transform: scale(1.0) rotate(0deg);", data-500="margin-top: -500px; transform: scale(0.25) rotate(360deg)")
-.container
-  p.text-center
-   | This is Ruby. She loves wearing hats and having her picture taken.<br>
-   | <em class="small">Just kidding, she hates my guts.</em>
-  p.text-center
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-  p.text-center
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-  p.text-center
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        .col-sm-3.col-sm-offset-3
+          form(
+            action="//formspree.io/hiramhibbard@gmail.com"
+          )
+            .form-group
+              input(
+                type="text",
+                name="name",
+                placeholder="name"
+              )
+            .form-group
+              input(
+                type="email",
+                name="_replyto"
+                placeholder="email"
+              )
+            .form-group
+              textarea(
+              placeholder="message",
+              rows="5"
+            )
+            input.btn.btn-default(
+              type="submit",
+              value="Send"
+            )
+        .col-sm-3
+          img.me(
+            src="/assets/images/me.png"
+          )

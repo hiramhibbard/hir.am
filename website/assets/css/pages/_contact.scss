@@ -1,0 +1,21 @@
+.contact-form {
+  margin-top: 100px;
+  h2 {
+    margin-bottom: 50px;
+    font-style: italic;
+    font-family: "bookmania" sans-serif;
+    letter-spacing: 1px;
+  }
+  input,
+  textarea {
+    background-color: rgba(0,0,0,.5);
+    width: 90%;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    line-height: 1;
+  }
+  input[type="submit"] { color: #222; }
+}
+
+.me { margin-top: 50px; }
