@@ -1,5 +1,16 @@
 header { text-align: center; }
+
+.page-header {
+  border: none;
+}
+
 .logo {
   margin-top: 15vh;
   opacity: .75;
+}
+
+.logo-link {
+  &:hover {
+    border: none;
+  }
 }

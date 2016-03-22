@@ -17,11 +17,12 @@ html
   body
     .wrap
       header
-        img.logo.text-center(
-          src="/assets/images/logo.png",
-          alt="",
-          height="160"
-        )
+        a.logo-link(href="/")
+          img.logo.text-center(
+            src="/assets/images/logo.png",
+            alt="",
+            height="160"
+          )
 
       != yield
 
